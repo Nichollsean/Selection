@@ -6,10 +6,12 @@ day=int(input("Please enter the day in number format e.g '14' : "))
 month=int(input("Please enter the month in number format e.g 'july = 7' : "))
 year=int(input("Please enter the year in 2 digit format e.g '05' :"))
 
-if day >=1 and day <=20:
+if day >=4 and day <=20:
     day1 = ("{0}th".format(day))
-elif day >=21 and day <=31:
+elif day ==1 and day ==21 and day == 31:
     day1 = ("{0}st".format(day))
+elif day ==3 and day == 23:
+    day1 = ("{0}rd".format(day))
 
 if month == 1:
     month1= ("January")
