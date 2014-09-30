@@ -6,6 +6,11 @@ day=int(input("Please enter the day in number format e.g '14' : "))
 month=int(input("Please enter the month in number format e.g 'july = 7' : "))
 year=int(input("Please enter the year in 2 digit format e.g '05' :"))
 
+if day >=1 and day <=20:
+    day1 = ("{0}th".format(day))
+elif day >=21 and day <=31:
+    day1 = ("{0}st".format(day))
+
 if month == 1:
     month1= ("January")
 elif month ==2:
@@ -38,4 +43,4 @@ elif year >=0 and year <=30:
 else:
     year1 = ("Year is not in range")
     
-print (" The date is the {0}th of {1} {2}".format(day, month1, year1))
+print (" The date is the {0} of {1} {2}".format(day1, month1, year1))
