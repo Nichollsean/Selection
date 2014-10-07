@@ -1,3 +1,7 @@
+#Sean Nicholls
+#6/10/14
+#ASCII 3
+
 asking=print("Please enter an 8 bit binary string below")
 string=(input(""))
 

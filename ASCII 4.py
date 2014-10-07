@@ -1,3 +1,4 @@
+
 #Sean Nicholls
 #6/10/14
 #ASCII Exercise 4
